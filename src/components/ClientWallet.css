@@ -1,0 +1,91 @@
+.client__wallet {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 60px;
+	left: 5px;
+	width: 95vw;
+	height: 20vh;
+	padding: 5px;
+	background-color: rgb(233, 31, 125);
+	border: none;
+	box-shadow: 2px 1px 14px rgb(78, 73, 73);
+	border-radius: 20px;
+}
+
+.client__wallet__balance span {
+	background-color: white;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	left: 70px;
+	top: 70px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.client__wallet__balance span i {
+	color: rgb(233, 31, 125);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-left: 4px;
+	position: absolute;
+}
+
+.client__wallet__balance h2 {
+	color: white;
+	position: absolute;
+	left: 50px;
+	top: 55px;
+}
+
+.client__wallet__balance p {
+	color: white;
+	position: absolute;
+	top: 100px;
+	left: 60px;
+}
+
+.client__wallet__equivalent span {
+	background-color: white;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	right: 70px;
+	top: 70px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.client__wallet__equivalent span i {
+	color: rgb(31, 176, 233);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-left: 6px;
+	position: absolute;
+}
+
+.client__wallet__equivalent h2 {
+	color: white;
+	position: absolute;
+	right: 50px;
+	top: 55px;
+}
+
+.client__wallet__equivalent p {
+	color: white;
+	position: absolute;
+	top: 100px;
+	right: 60px;
+}
+
+.divider {
+	border-left: 1px solid rgba(233, 182, 208, 0.959);
+	height: 132px;
+}
